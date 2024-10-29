@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace PhoneShopSharedLibrary.Responses
 {
-        public record class ServiceResponse(bool flasg, string Message);
+        public record class ServiceResponse(bool flag, string message);
 }

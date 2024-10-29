@@ -9,6 +9,6 @@ namespace ShopAppServer.Data
         {
             
         }
-        public DbSet<Product> Product { get; set; } = default!;
+        public DbSet<Product> Products { get; set; } = default!;
     }
 }
